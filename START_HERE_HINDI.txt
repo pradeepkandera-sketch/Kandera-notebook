@@ -1,0 +1,21 @@
+KANDERA NOTEBOOK — COMPLETE PROJECT (Hindi guide)
+
+ZIP ko extract karne ke baad is folder ke andar ye files/folders honge:
+- app/
+- .github/workflows/build-apk.yml  (dot se shuru hota hai; kuch file managers ise hide kar sakte hain)
+- build.gradle.kts
+- settings.gradle.kts
+- gradle.properties
+- README_HINDI.md
+
+IMPORTANT: GitHub par upload karte waqt ZIP file ko seedha upload na karein. Extracted project ke andar ki files/folders ko upload karein, aur folder structure bilkul same rakhein.
+
+Mobile par sabse aasaan tareeqa:
+1. GitHub repository open karein.
+2. Add file > Upload files.
+3. Agar mobile file picker folders ke andar jaane deta hai, to extracted project ke andar ki files/folders select karein.
+4. .github hidden ho sakta hai. Agar picker ise nahi dikhata, file manager settings mein Show hidden files on karein, ya GitHub website ka Desktop site mode try karein.
+5. Commit changes.
+6. Actions tab > Build Kandera Notebook APK workflow. Build successful ho to artifact download karein.
+
+Agar GitHub mobile upload screen folders select nahi karne deta, sab kuch ek-ek karke upload karne ki bajaye browser menu (⋮) > Desktop site try karein.
